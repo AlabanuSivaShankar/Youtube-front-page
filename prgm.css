@@ -1,0 +1,156 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.nav-icons i {
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.video {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.video p {
+    color: #606060;
+    font-size: 14px;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.header {
+    align-items: center;
+    max-height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.left-section, .middle-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+.left-section img {
+    height: 40px;
+    width: 150px;
+    margin-right: 15px;
+}
+.middle-section {
+    flex: 1;
+    max-width: 600px;
+    cursor: pointer;
+}
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.search-bar button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.mic {
+    margin-left: 10px;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.right-section button {
+    padding: 8px 16px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.prof{
+    max-height: fit-content;
+}
